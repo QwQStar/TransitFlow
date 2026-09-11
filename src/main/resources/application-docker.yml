@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://mysql:3306/transitflow?useSSL=false&allowPublicKeyRetrieval=true&characterEncoding=utf8
+  data:
+    redis:
+      host: redis
+  kafka:
+    bootstrap-servers: kafka:9092
