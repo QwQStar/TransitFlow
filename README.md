@@ -2,6 +2,8 @@
 
 Personal portfolio project — **not** a production traffic platform.
 
+Companion AI demo: [TransitFlow Ops Copilot](https://github.com/QwQStar/TransitFlow-OpsCopilot) — read-only Spring AI assistant over `/api/stats`.
+
 A small end-to-end mobility ingest pipeline used to demonstrate the patterns behind GPS / weigh-station / flight feeds:
 
 Kafka (partition by `deviceId`) → Spring Boot consumer group → Redis short-window dedup + GEO → MySQL upsert → scheduled reconciliation → DLQ.
